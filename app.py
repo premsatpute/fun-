@@ -64,9 +64,6 @@ with col2:
         st.session_state.no_count += 1
         st.warning("Error 404: 'No' not found. Please try the other button! or if sure no then click no again 😘")
 
-# Add a sweet image or gif
-st.markdown("---")
-st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpueGZidXpueGZidXpueGZidXpueGZidXpueGZidXpueGZidXpueGZidSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L4lvB7fWToU54r7T6n/giphy.gif", use_column_width=True)
 
 st.write("---")
-st.caption("Made with ❤️ by your favorite person.")
+st.caption(" with ❤️  prem .")
