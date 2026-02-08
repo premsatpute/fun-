@@ -35,11 +35,11 @@ st.title("💖 Hey Beautiful...")
 st.header("I've missed you so much!")
 
 st.write("""
-Now that I'm finally coming back to you tomorrow, I have one very important 
-request. I want us to forget the world, forget the office, and just be **us**.
+Now that I'm finally coming back to you tomorrow . i have request for you , can u please take a holiday from all the workload of office and be there with me the whole day , watching shwos , cooking together , desigining room , deep convos and much more 
+ I want us to forget the world, forget the office, and just be with me .
 """)
 
-st.subheader("Will you take a holiday for me so we can spend the whole day together?")
+st.subheader("so will be my valentine ? ")
 
 # Create two columns for the buttons
 col1, col2 = st.columns(2)
@@ -62,7 +62,7 @@ with col2:
     
     if st.button(no_labels[st.session_state.no_count % len(no_labels)]):
         st.session_state.no_count += 1
-        st.warning("Error 404: 'No' not found. Please try the other button! 😘")
+        st.warning("Error 404: 'No' not found. Please try the other button! or if sure no then click no again 😘")
 
 # Add a sweet image or gif
 st.markdown("---")
