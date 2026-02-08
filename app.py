@@ -35,11 +35,11 @@ st.title("💖 Hey Beautiful...")
 st.header("I've missed you so much!")
 
 st.write("""
-Now that I'm finally coming back to you tomorrow . i have request for you , can u please take a holiday from all the workload of office and be there with me the whole day , watching shwos , cooking together , desigining room , deep convos and much more 
+Now that I'm finally coming back to you tomorrow . i have request for you , can u please take a holiday from all the workload of office and be there with me the whole day , watching shows, cooking together , desigining room , deep convos and much more(stuff, hehehe) 
  I want us to forget the world, forget the office, and just be with me .
 """)
 
-st.subheader("so will be my valentine ? ")
+st.subheader("so will you  be my valentine ? ")
 
 # Create two columns for the buttons
 col1, col2 = st.columns(2)
@@ -48,7 +48,7 @@ with col1:
     if st.button("YES! 😍"):
         st.balloons()
         st.snow() # Looks like falling petals/confetti in this context
-        st.success("Yay! I can't wait to see you tomorrow! Prepare for the best day ever. ❤️")
+        st.success("Yay! I can't wait to see you tomorrow! ")
         st.confetti() # If you have the streamlit-confetti transition
 
 with col2:
